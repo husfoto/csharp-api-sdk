@@ -154,3 +154,5 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/.vs/FortnoxAPILibrary/DesignTimeBuild
+/.vs/FortnoxAPILibrary/v15/Server/sqlite3
