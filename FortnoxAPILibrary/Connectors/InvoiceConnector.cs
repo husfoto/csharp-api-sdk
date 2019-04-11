@@ -129,7 +129,15 @@ namespace FortnoxAPILibrary.Connectors
 			}
 		}
 
-		private bool filterBySet = false;
+        /// <summary>
+		/// Unsets FilterBy.
+        /// </summary>
+		public void UnsetFilterBy()
+        {
+            filterBySet = false;
+        }
+
+        private bool filterBySet = false;
 		private Filter.Invoice filterBy;
         /// <remarks/>
         [FilterProperty("filter")]
