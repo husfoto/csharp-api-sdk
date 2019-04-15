@@ -269,7 +269,7 @@ namespace FortnoxAPILibrary
 
                 string propertySetName = property.Name[0].ToString().ToLower() + property.Name.Substring(1) + "Set";
 
-                var propertySet = this.GetType().GetField(propertySetName, BindingFlags.Instance);
+                var propertySet = this.GetType().GetField(propertySetName, BindingFlags.Default);
 
                 if (propertySet != null)
                 {
